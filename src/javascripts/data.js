@@ -5,9 +5,9 @@ const data = [
     statusIndicator: 'Fullness',
     button1: 'Unhealthy',
     button2: 'Healthy',
-    button1Val: -10,
+    button1Val: -3,
     button2Val: 10,
-    initialScore: 100,
+    score: 100,
   },
   {
     title: 'Play',
@@ -17,7 +17,7 @@ const data = [
     button2: 'Kinda Fun',
     button1Val: 50,
     button2Val: 2,
-    initialScore: 50,
+    score: 50,
   },
   {
     title: 'Fight',
@@ -27,7 +27,7 @@ const data = [
     button2: 'Violence',
     button1Val: 1,
     button2Val: -10,
-    initialScore: 100,
+    score: 100,
   },
   {
     title: 'Sleep',
@@ -37,7 +37,7 @@ const data = [
     button2: 'Deep Slumber',
     button1Val: 50,
     button2Val: 60,
-    initialScore: 50,
+    score: 50,
   },
 ];
 

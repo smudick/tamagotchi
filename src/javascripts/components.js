@@ -17,7 +17,7 @@ const quadBuilder = () => {
         </div>
         <div class="score">
             <h3>${item.statusIndicator}</h3>
-            <div>${item.initialScore}</div>
+            <div>${item.score}</div>
         </div>
     </div>`);
   });
