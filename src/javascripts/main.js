@@ -1,8 +1,9 @@
 import '../styles/main.scss';
+import components from './components';
+import data from './data';
 
 const init = () => {
-  $('#app').html('<h1>HELLO! You are up and running!</h1>');
-  console.log('YOU ARE UP AND RUNNING!');
+  components.quadBuilder('eat', data.getEat());
 };
 
 init();
