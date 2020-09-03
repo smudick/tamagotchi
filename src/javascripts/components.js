@@ -1,18 +1,26 @@
-const quadBuilder = (id, quadObj) => {
-  $(`#${id}`).html(`
-    <div> 
-        <h2>${quadObj.title}</h2> 
+import data from './data';
+
+const quadBuilder = () => {
+  data.getData().forEach((item) => {
+    $(`${item.id}`).html(`
+    <div class="${item.title}"> 
+        <div class="title">
+            <h2>${item.title}</h2> 
+        </div>
         <div class="buttons-group">
-            <button id=${quadObj.button1}
-                <div>${quadObj.button1}</div>
+            <button id=${item.button1}>
+                <div class="button-1-${item.title}">${item.button1}</div>
             </button>
-            <button id=${quadObj.button2}>
-                <div>${quadObj.button2}</div>
+            <button id=${item.button2}>
+                <div class="button-2-${item.title}">${item.button2}</div>
             </button>
         </div>
-        <h3>${quadObj.statusIndicator}</h3>
-        <div>${quadObj.initialScore}</div>
+        <div class="score">
+            <h3>${item.statusIndicator}</h3>
+            <div>${item.initialScore}</div>
+        </div>
     </div>`);
+  });
 };
 
 export default { quadBuilder };
