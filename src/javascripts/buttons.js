@@ -7,6 +7,7 @@ const buttonClicks = () => {
     $('#Eat-score').html(newScore);
     data.getData()[0].score = newScore;
   });
+
   $('#Healthy').on('click', () => {
     let newScore = data.getData()[0].score;
     newScore += data.getData()[0].button2Val;
