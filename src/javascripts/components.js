@@ -8,11 +8,11 @@ const quadBuilder = () => {
             <h2>${item.title}</h2> 
         </div>
         <div class="buttons-group">
-            <button id=${item.button1}>
-                <div class="button-1-${item.title}">${item.button1}</div>
+            <button type ="button" id=${item.button1}>
+                <div class="button-1-${item.title} button1">${item.button1}</div>
             </button>
-            <button id=${item.button2}>
-                <div class="button-2-${item.title}">${item.button2}</div>
+            <button type ="button" id=${item.button2}>
+                <div class="button-2-${item.title} button2">${item.button2}</div>
             </button>
         </div>
         <div class="score">
