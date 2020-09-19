@@ -7,6 +7,8 @@ const buttonClicks = () => {
     newScore += data.getData()[0].button1Val;
     if (newScore > 100) {
       newScore = 100;
+    } else if (newScore < 0) {
+      newScore = 0;
     }
     $('#Eat-score').html(newScore);
     data.getData()[0].score = newScore;
@@ -58,6 +60,8 @@ const buttonClicks = () => {
     newScore += data.getData()[2].button2Val;
     if (newScore > 100) {
       newScore = 100;
+    } else if (newScore < 0) {
+      newScore = 0;
     }
     $('#Fight-score').html(newScore);
     data.getData()[2].score = newScore;
