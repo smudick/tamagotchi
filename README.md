@@ -9,4 +9,3 @@ This project simulates the classic handheld Tamagotchi game. It allows you to fe
 Link to site <a href="https://sm-tamagotchi.netlify.app"/>here</a>!
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3bcd7f1c-09ed-4e8c-ab04-eaa60fdaa83b/deploy-status)](https://app.netlify.com/sites/sm-tamagotchi/deploys)
-
