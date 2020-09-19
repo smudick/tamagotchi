@@ -1,0 +1,16 @@
+.buttons-group {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  font-size: $text-sm;
+}
+
+.button1 {
+  background-color: $button-1;
+  width: 40%;
+}
+
+.button2 {
+  background-color: $button-2;
+  width: 40%;
+}
