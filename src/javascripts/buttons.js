@@ -1,4 +1,5 @@
 import data from './data';
+import progress from './progress';
 
 const buttonClicks = () => {
   $('#Unhealthy').on('click', () => {
@@ -9,6 +10,7 @@ const buttonClicks = () => {
     }
     $('#Eat-score').html(newScore);
     data.getData()[0].score = newScore;
+    progress.progress();
   });
 
   $('#Healthy').on('click', () => {
@@ -19,6 +21,7 @@ const buttonClicks = () => {
     }
     $('#Eat-score').html(newScore);
     data.getData()[0].score = newScore;
+    progress.progress();
   });
   $('#Super-Fun').on('click', () => {
     let newScore = data.getData()[1].score;
@@ -28,6 +31,7 @@ const buttonClicks = () => {
     }
     $('#Play-score').html(newScore);
     data.getData()[1].score = newScore;
+    progress.progress();
   });
   $('#Kinda-Fun').on('click', () => {
     let newScore = data.getData()[1].score;
@@ -37,6 +41,7 @@ const buttonClicks = () => {
     }
     $('#Play-score').html(newScore);
     data.getData()[1].score = newScore;
+    progress.progress();
   });
   $('#Run-Away').on('click', () => {
     let newScore = data.getData()[2].score;
@@ -46,6 +51,7 @@ const buttonClicks = () => {
     }
     $('#Fight-score').html(newScore);
     data.getData()[2].score = newScore;
+    progress.progress();
   });
   $('#Violence').on('click', () => {
     let newScore = data.getData()[2].score;
@@ -55,6 +61,7 @@ const buttonClicks = () => {
     }
     $('#Fight-score').html(newScore);
     data.getData()[2].score = newScore;
+    progress.progress();
   });
   $('#Nap').on('click', () => {
     let newScore = data.getData()[3].score;
@@ -64,6 +71,7 @@ const buttonClicks = () => {
     }
     $('#Sleep-score').html(newScore);
     data.getData()[3].score = newScore;
+    progress.progress();
   });
   $('#Deep-Slumber').on('click', () => {
     let newScore = data.getData()[3].score;
@@ -73,6 +81,7 @@ const buttonClicks = () => {
     }
     $('#Sleep-score').html(newScore);
     data.getData()[3].score = newScore;
+    progress.progress();
   });
 };
 
