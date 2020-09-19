@@ -1,0 +1,43 @@
+#app {
+  display: flex;
+  flex-flow: row wrap;
+}
+.quad {
+  display: flex;
+  flex-flow: column nowrap;
+  border: 1px black solid;
+  width: 50%;
+  padding: 4em;
+  font-family: $main-font;
+}
+#play {
+  background-color: $play;
+  color: $text-color-2;
+}
+#eat {
+  background-color: $eat;
+  color: $text-color-1;
+}
+#fight {
+  background-color: $fight;
+  color: $text-color-1;
+}
+#sleep {
+  background-color: $sleep;
+  color: $text-color-2;
+}
+
+.title {
+  font-size: $text-lg;
+  margin-bottom: 2em;
+}
+
+.score {
+  margin-top: 3em;
+}
+
+.score {
+  .scoreVal {
+    font-size: 40px;
+  }
+}
