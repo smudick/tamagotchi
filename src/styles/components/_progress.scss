@@ -1,8 +1,13 @@
-.progress {
+#progress {
+    width: 100%;
     position: absolute;
     z-index: 10;
     top: 60%;
-    left: 40%;
+    display: flex;
+    justify-content: center;
+}
+.progress {
+    width: 400px;
     padding: 2em;
     background-color: white;
     font-family: $main-font;
