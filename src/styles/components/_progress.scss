@@ -1,0 +1,10 @@
+.progress {
+    position: absolute;
+    z-index: 10;
+    top: 60%;
+    left: 40%;
+    padding: 2em;
+    background-color: white;
+    font-family: $main-font;
+    box-shadow: 5px 5px 3px #000000;
+}
