@@ -25,4 +25,10 @@ const quadBuilder = () => {
   });
 };
 
-export default { quadBuilder };
+const petBuilder = () => {
+  $('#pet').html(
+    '<img src="https://www.cbc.ca/kidscbc2/content/the_feed/funnyfaces_chipmunk-compressor.jpg" alt="Chipmunk" height="175">'
+  );
+};
+
+export default { quadBuilder, petBuilder };

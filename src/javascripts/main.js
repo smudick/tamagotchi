@@ -5,6 +5,7 @@ import progress from './progress';
 
 const init = () => {
   components.quadBuilder();
+  components.petBuilder();
   buttons.buttonClicks();
   progress.progress();
 };
